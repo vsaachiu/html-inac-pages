@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Guide: The ✶MYP Folder System - Victoria Shanghai Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            vsa: {
+              blue: '#004C80',       /* Pantone 2955C */
+              blueDark: '#00365c',
+              blueLight: '#eef6fc',
+              red: '#88002B',        /* Pantone 202C */
+              redDark: '#670020',
+              redLight: '#faeaf0',
+              gold: '#C99700',
+              surface: '#F8FAFC'
+            }
+          },
+          fontFamily: {
+            sans: ['"Helvetica Neue"', 'Helvetica', 'Arial', '"Heiti TC"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, "Heiti TC", sans-serif;
+      color: #1E293B;
+      background-color: #F1F5F9;
+      -webkit-font-smoothing: antialiased;
+    }
+    .vsa-card-glow {
+      box-shadow: 0 10px 25px -5px rgba(0, 76, 128, 0.12), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+    }
+    .step-pill {
+      background: linear-gradient(135deg, #004C80 0%, #00365c 100%);
+    }
+    .check-item:hover {
+      background-color: #F8FAFC;
+    }
+  </style>
+</head>
+<body class="p-3 sm:p-6 md:p-8">
+
+  <div class="max-w-4xl mx-auto bg-white rounded-2xl vsa-card-glow border border-slate-200 overflow-hidden">
+    
+    <!-- Top Brand Header Bar -->
+    <header class="bg-vsa-blue text-white relative px-6 py-6 sm:px-10 sm:py-8 border-b-4 border-vsa-red">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div>
+          <div class="flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-blue-200">
+            <span>Victoria Shanghai Academy</span>
+            <span class="text-white/40">•</span>
+            <span class="text-white/90">滬江維多利亞學校</span>
+            <span class="text-white/40">•</span>
+            <span class="text-blue-100">IB MYP</span>
+          </div>
+          <h1 class="text-2xl sm:text-3xl font-bold tracking-tight text-white mt-1.5 flex items-center gap-2 flex-wrap">
+            <span>Your ✶MYP Workspace Guide</span>
+            <span class="text-xs bg-vsa-red text-white px-2.5 py-0.5 rounded-full uppercase tracking-wider font-semibold border border-white/20">Student Edition</span>
+          </h1>
+          <p class="text-blue-100 text-sm sm:text-base mt-1.5 max-w-xl leading-relaxed">
+            Welcome to your all-in-one Google Drive workspace. Find all your subject folders in seconds, keep notes organized, and never lose an assignment again!
+          </p>
+        </div>
+        <div class="hidden sm:flex w-14 h-14 rounded-2xl bg-white/10 border border-white/20 items-center justify-center text-2xl flex-shrink-0 text-amber-300">
+          <i class="fa-solid fa-folder-star"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="p-6 sm:p-8 space-y-8">
+      
+      <!-- Primary Action: Search Button Banner -->
+      <div class="bg-gradient-to-r from-vsa-blue to-[#002f50] rounded-2xl p-6 text-white relative overflow-hidden shadow-md">
+        <div class="absolute -right-10 -bottom-10 opacity-10 text-9xl pointer-events-none">
+          <i class="fa-solid fa-rocket"></i>
+        </div>
+        
+        <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="space-y-2">
+            <span class="inline-block bg-amber-400 text-slate-900 text-[11px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+              Fastest Way In
+            </span>
+            <h2 class="text-xl sm:text-2xl font-bold">Jump Straight to Your Folder</h2>
+            <p class="text-xs sm:text-sm text-blue-100 max-w-md leading-relaxed">
+              Click the button below or type <code class="bg-black/30 px-1.5 py-0.5 rounded font-mono text-amber-300">*MYP</code> into Google Drive to instantly pull up your dedicated student folder.
+            </p>
+          </div>
+
+          <div class="flex-shrink-0">
+            <a href="https://drive.google.com/drive/search?q=*MYP%20type:folder" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-2.5 bg-vsa-red hover:bg-vsa-redDark text-white font-bold px-6 py-3.5 rounded-xl text-sm sm:text-base shadow-lg transition-all transform active:scale-95 border border-white/20">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Open My *MYP Folder</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-75"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- What is the *MYP Folder Section: Positive Transparency & Growth -->
+      <section class="bg-gradient-to-br from-slate-50 to-blue-50/50 border border-slate-200 rounded-2xl p-6 sm:p-7 space-y-4">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-xl bg-vsa-blue text-white flex items-center justify-center flex-shrink-0 shadow-sm text-lg">
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+          <div class="space-y-1">
+            <span class="text-xs font-bold uppercase tracking-wider text-vsa-blue">Your Personal Learning Hub</span>
+            <h2 class="text-lg sm:text-xl font-bold text-slate-900">What is Your ✶MYP Folder?</h2>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Your <code class="font-mono text-vsa-blue font-semibold">*MYP</code> folder is your dedicated digital home across all of secondary school at VSA. Inside, you will find pre-created folders for each of your subjects—ready for your class notes, lab reports, design folios, and creative presentations.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+          <!-- Shared with Teachers Card -->
+          <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm flex items-start gap-3">
+            <div class="w-8 h-8 rounded-lg bg-vsa-blueLight text-vsa-blue flex items-center justify-center flex-shrink-0 font-bold text-sm">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <div class="space-y-1 text-xs sm:text-sm">
+              <h3 class="font-bold text-slate-900">Shared with Your Teachers for Real-Time Coaching</h3>
+              <p class="text-slate-600 leading-relaxed text-xs">
+                Your teachers have access to celebrate your progress and drop in timely feedback, encouragement, and guidance while you draft—without waiting for final submissions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Visible for Parents Card -->
+          <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm flex items-start gap-3">
+            <div class="w-8 h-8 rounded-lg bg-vsa-redLight text-vsa-red flex items-center justify-center flex-shrink-0 font-bold text-sm">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="space-y-1 text-xs sm:text-sm">
+              <h3 class="font-bold text-slate-900">Visible for Your Family to Celebrate Your Growth</h3>
+              <p class="text-slate-600 leading-relaxed text-xs">
+                Your parents have read-only visibility into your active learning journey. Working transparently helps them support your goals, celebrate your inquiries, and partner in your growth.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-white/80 border border-slate-200 text-xs text-slate-600 flex items-center gap-2.5">
+          <i class="fa-solid fa-compass text-amber-500 text-base"></i>
+          <span><strong>Empowering Your ATL Self-Management:</strong> Embracing open, transparent work is the hallmark of a confident secondary learner. It builds accountability, pride in your process, and makes reflection second nature.</span>
+        </div>
+      </section>
+
+      <!-- Collapsible Section: How to Add a Shortcut to My Drive -->
+      <section class="border border-slate-200 rounded-2xl overflow-hidden bg-white shadow-sm">
+        <button onclick="toggleShortcutSection()" class="w-full p-5 sm:p-6 flex items-center justify-between text-left hover:bg-slate-50 transition-colors">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-lg bg-vsa-blueLight text-vsa-blue flex items-center justify-center font-bold">
+              <i class="fa-solid fa-turn-up text-sm"></i>
+            </div>
+            <div>
+              <h2 class="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2">
+                <span>How to Add a Shortcut to "My Drive"</span>
+                <span class="text-[11px] font-semibold bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full border border-slate-200 hidden sm:inline-block">Recommended</span>
+              </h2>
+              <p class="text-xs text-slate-500 mt-0.5">Keep your ✶MYP folder directly on your main Google Drive page so it's always one click away.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 text-slate-400">
+            <span class="text-xs font-semibold text-slate-500 hidden sm:inline" id="shortcut-toggle-text">Show Steps</span>
+            <i id="shortcut-chevron" class="fa-solid fa-chevron-down transition-transform duration-200 text-slate-500"></i>
+          </div>
+        </button>
+
+        <div id="shortcut-content" class="hidden px-5 pb-6 sm:px-6 space-y-4 border-t border-slate-100 bg-slate-50/50 pt-5">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Step 1 -->
+            <div class="p-5 rounded-xl border border-slate-200 bg-white hover:border-vsa-blue transition-all space-y-3 shadow-sm">
+              <div class="flex items-center justify-between">
+                <span class="w-7 h-7 rounded-full bg-vsa-blue text-white text-xs font-bold flex items-center justify-center">1</span>
+                <span class="text-xs text-slate-400"><i class="fa-solid fa-magnifying-glass"></i> Find It</span>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm">Locate Your Folder</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Go to <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" class="font-bold text-vsa-blue hover:underline inline-flex items-center gap-1">drive.google.com <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a> and search <code class="bg-slate-100 text-vsa-red px-1 py-0.5 rounded font-mono font-semibold">*MYP</code> to find your folder named:
+                <span class="block font-mono text-[11px] bg-slate-50 text-slate-800 p-2 rounded mt-2 border border-slate-200">
+                  *MYP [Your Name] - [ID]
+                </span>
+              </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="p-5 rounded-xl border border-slate-200 bg-white hover:border-vsa-blue transition-all space-y-3 shadow-sm">
+              <div class="flex items-center justify-between">
+                <span class="w-7 h-7 rounded-full bg-vsa-red text-white text-xs font-bold flex items-center justify-center">2</span>
+                <span class="text-xs text-slate-400"><i class="fa-solid fa-hand-pointer"></i> Trackpad Tap</span>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm">Add Shortcut</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                <strong>Two-finger tap</strong> on your MacBook trackpad (or right-click) on your folder and select:
+                <span class="block text-xs font-medium text-vsa-blue bg-vsa-blueLight/60 p-2 rounded mt-2 border border-vsa-blue/20">
+                  <i class="fa-solid fa-folder-plus mr-1"></i> <strong>Organize</strong> &rarr; <strong>Add shortcut</strong>
+                </span>
+                <span class="text-[11px] text-slate-400 mt-1.5 block">Or select your folder and press <kbd class="px-1.5 py-0.5 bg-slate-100 border border-slate-300 rounded font-mono text-slate-700">Shift+Z</kbd></span>
+              </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="p-5 rounded-xl border border-slate-200 bg-white hover:border-vsa-blue transition-all space-y-3 shadow-sm">
+              <div class="flex items-center justify-between">
+                <span class="w-7 h-7 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center">3</span>
+                <span class="text-xs text-slate-400"><i class="fa-solid fa-check"></i> Done</span>
+              </div>
+              <h3 class="font-bold text-slate-800 text-sm">Select "My Drive"</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Choose <strong>My Drive</strong> in the popup window and click <strong>Add</strong>.
+                <span class="block text-xs text-emerald-700 bg-emerald-50 p-2 rounded mt-2 border border-emerald-200">
+                  🎉 Your *MYP folder will now sit right on your main Drive screen alongside your daily files!
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="space-y-4">
+        <div class="flex items-center gap-2 border-b border-slate-200 pb-3">
+          <div class="w-8 h-8 rounded-lg bg-vsa-redLight text-vsa-red flex items-center justify-center font-bold">
+            <i class="fa-solid fa-lightbulb text-sm"></i>
+          </div>
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">4 Quick Tips for MYP Success</h2>
+            <p class="text-xs sm:text-sm text-slate-500">How to use your folders like an organized IB learner.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Tip 1 -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white transition-all flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-vsa-blue text-white flex items-center justify-center flex-shrink-0 text-sm">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+            <div class="space-y-1">
+              <h4 class="font-bold text-slate-900 text-sm">Bookmark it on Day 1</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Open your folder once in Safari or Chrome and press <kbd class="px-1.5 py-0.5 bg-white border border-slate-300 rounded font-mono text-slate-700 font-semibold">Cmd+D</kbd> on your MacBook to pin it to your favorites bar. Instant 1-click access all year!
+              </p>
+            </div>
+          </div>
+
+          <!-- Tip 2 -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white transition-all flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-vsa-red text-white flex items-center justify-center flex-shrink-0 text-sm">
+              <i class="fa-solid fa-folder-tree"></i>
+            </div>
+            <div class="space-y-1">
+              <h4 class="font-bold text-slate-900 text-sm">Practice "Save-It-Right"</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Starting a new essay, lab report, or slide deck? Open your specific subject folder (e.g. <em>Sciences</em> or <em>Design</em>) <strong>first</strong>, then click <strong>+ New</strong>. No more loose files!
+              </p>
+            </div>
+          </div>
+
+          <!-- Tip 3 -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white transition-all flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-emerald-600 text-white flex items-center justify-center flex-shrink-0 text-sm">
+              <i class="fa-solid fa-user-check"></i>
+            </div>
+            <div class="space-y-1">
+              <h4 class="font-bold text-slate-900 text-sm">No "Share" Button Needed</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Anything you create inside your subject folders is automatically visible to your subject teachers. You never have to copy/paste share links or answer "Request Access" emails.
+              </p>
+            </div>
+          </div>
+
+          <!-- Tip 4 (Replaced: One Home for All School Work) -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white transition-all flex gap-3.5 items-start">
+            <div class="w-9 h-9 rounded-lg bg-amber-500 text-white flex items-center justify-center flex-shrink-0 text-sm">
+              <i class="fa-solid fa-boxes-stacked"></i>
+            </div>
+            <div class="space-y-1">
+              <h4 class="font-bold text-slate-900 text-sm">One Home for All Your School Work</h4>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Use these folders for all your classes and keep everything organized by subject. When every draft, inquiry note, and project lives in its dedicated subject space, revising for tests and tracking assignments becomes effortless.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-vsa-blueLight border border-vsa-blue/30 rounded-2xl p-5 sm:p-6 space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <h3 class="text-base font-bold text-vsa-blue flex items-center gap-2">
+              <i class="fa-solid fa-list-check"></i>
+              <span>3-Minute Onboarding Checklist</span>
+            </h3>
+            <p class="text-xs text-slate-600 mt-0.5">Tick each step once completed to verify your workspace is ready!</p>
+          </div>
+          <div class="text-xs font-semibold text-vsa-blue bg-white px-3 py-1 rounded-full border border-vsa-blue/20 self-start sm:self-center" id="checklist-progress">
+            0 of 4 Completed
+          </div>
+        </div>
+
+        <div class="space-y-2 bg-white rounded-xl p-3 sm:p-4 border border-slate-200">
+          <label class="check-item flex items-center gap-3 p-2.5 rounded-lg cursor-pointer transition-colors">
+            <input type="checkbox" onchange="updateProgress()" class="w-4 h-4 rounded text-vsa-blue focus:ring-vsa-blue border-slate-300">
+            <span class="text-xs sm:text-sm text-slate-700">1. Clicked the button or searched <code class="font-mono text-vsa-red font-semibold">*MYP</code> and opened my folder</span>
+          </label>
+          <label class="check-item flex items-center gap-3 p-2.5 rounded-lg cursor-pointer transition-colors">
+            <input type="checkbox" onchange="updateProgress()" class="w-4 h-4 rounded text-vsa-blue focus:ring-vsa-blue border-slate-300">
+            <span class="text-xs sm:text-sm text-slate-700">2. Bookmarked my *MYP folder on my MacBook toolbar (<kbd class="px-1.5 py-0.5 text-[11px] bg-slate-100 border border-slate-300 rounded font-mono font-semibold">Cmd+D</kbd>)</span>
+          </label>
+          <label class="check-item flex items-center gap-3 p-2.5 rounded-lg cursor-pointer transition-colors">
+            <input type="checkbox" onchange="updateProgress()" class="w-4 h-4 rounded text-vsa-blue focus:ring-vsa-blue border-slate-300">
+            <span class="text-xs sm:text-sm text-slate-700">3. Added a shortcut to <strong>"My Drive"</strong> so it appears on my main Drive home page</span>
+          </label>
+          <label class="check-item flex items-center gap-3 p-2.5 rounded-lg cursor-pointer transition-colors">
+            <input type="checkbox" onchange="updateProgress()" class="w-4 h-4 rounded text-vsa-blue focus:ring-vsa-blue border-slate-300">
+            <span class="text-xs sm:text-sm text-slate-700">4. Opened one of my subject folders (e.g. Sciences or Language & Literature) to confirm my subjects are visible</span>
+          </label>
+        </div>
+
+        <div id="congrats-banner" class="hidden p-3 rounded-lg bg-emerald-100 border border-emerald-300 text-emerald-800 text-xs font-semibold flex items-center gap-2">
+          <i class="fa-solid fa-trophy text-amber-600 text-base"></i>
+          <span>Outstanding ATL Self-Management! You are 100% setup for the school year.</span>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="bg-slate-50 border-t border-slate-200 px-6 py-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-vsa-blue">Victoria Shanghai Academy</span>
+        <span>•</span>
+        <span>Approaches to Learning (ATL) Support</span>
+      </div>
+      <div class="flex items-center gap-2 text-[11px]">
+        <span>Need assistance? Check with your Homeroom Teacher or the IT Helpdesk</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    // Collapsible Shortcut Guide Toggle
+    function toggleShortcutSection() {
+      const content = document.getElementById('shortcut-content');
+      const chevron = document.getElementById('shortcut-chevron');
+      const toggleText = document.getElementById('shortcut-toggle-text');
+      
+      const isHidden = content.classList.contains('hidden');
+      if (isHidden) {
+        content.classList.remove('hidden');
+        chevron.classList.add('rotate-180');
+        if (toggleText) toggleText.innerText = 'Hide Steps';
+      } else {
+        content.classList.add('hidden');
+        chevron.classList.remove('rotate-180');
+        if (toggleText) toggleText.innerText = 'Show Steps';
+      }
+    }
+
+    // Checklist tracker logic
+    function updateProgress() {
+      const checkboxes = document.querySelectorAll('.check-item input[type="checkbox"]');
+      let completed = 0;
+      checkboxes.forEach(cb => {
+        if (cb.checked) completed++;
+      });
+
+      const progressBadge = document.getElementById('checklist-progress');
+      const congrats = document.getElementById('congrats-banner');
+
+      progressBadge.innerText = `${completed} of ${checkboxes.length} Completed`;
+
+      if (completed === checkboxes.length) {
+        congrats.classList.remove('hidden');
+        progressBadge.classList.remove('text-vsa-blue');
+        progressBadge.classList.add('bg-emerald-100', 'text-emerald-800', 'border-emerald-300');
+      } else {
+        congrats.classList.add('hidden');
+        progressBadge.classList.remove('bg-emerald-100', 'text-emerald-800', 'border-emerald-300');
+        progressBadge.classList.add('text-vsa-blue');
+      }
+    }
+  </script>
+</body>
+</html>
